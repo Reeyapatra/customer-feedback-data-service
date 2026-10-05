@@ -1,0 +1,22 @@
+{
+  "compatibility_date": "2025-10-08",
+  "main": "src/index.ts",
+  "name": "customer-feedback-data-service",
+  "upload_source_maps": true,
+
+  "ai": {
+    "binding": "AI"
+  },
+
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_id": "7cd7d445-34c9-4060-9829-e2491d03fa1d",
+      "database_name": "feedback-aggregation-database"
+    }
+  ],
+
+  "observability": {
+    "enabled": true
+  }
+}
